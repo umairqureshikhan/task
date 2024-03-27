@@ -2,7 +2,7 @@
 
 const CreateWallet = () => {
   return (
-<>
+
 <div className="modal-overlay">
         <div className='w-[40%] walletmodal rounded-3xl bg-white  px-20 h-[95vh] ml-auto mr-auto  flex justify-center items-center '>
             <div className='wallet-modal'>
@@ -25,7 +25,6 @@ const CreateWallet = () => {
 
 
   
-  </>
 
 )
 }
