@@ -26,7 +26,6 @@ const Index = () => {
         <Route path="/signup" Component={Signup}></Route>
         <Route path="/header" Component={Header}></Route>
         <Route path="/transaction" Component={Transaction}></Route>
-        <Route path="/Createtransaction" Component={CreateTransaction}></Route>
         <Route path="/CreateWallet" Component={CreateWallet}></Route>
         <Route path="/Addnewcategory" Component={AddnewCategory}></Route>
 
