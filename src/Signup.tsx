@@ -45,6 +45,7 @@ const Signup = () => {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    
     if (validateForm()) {
       let obj = {
         username: formData.username,
